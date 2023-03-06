@@ -22,13 +22,13 @@ public class HellobootApplication {
 	void init() {
 		jdbcTemplate.execute("create  table if not exists hello(name varchar(50) primary key, count int)");
 	}
-	@Bean
-	ApplicationRunner applicationRunner(Environment env) {
-		return args ->{
-			String name = env.getProperty("my.name");
-			System.out.println("my.name: " + name);
-		};
-	}
+//	@Bean
+//	ApplicationRunner applicationRunner(Environment env) {
+//		return args ->{
+//			String name = env.getProperty("my.name");
+//			System.out.println("my.name: " + name);
+//		};
+//	}
 	public static void main(String[] args) {
         SpringApplication.run(HellobootApplication.class);
 	}
