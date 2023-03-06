@@ -1,6 +1,0 @@
-devsmilespring.config.autoconfig.DispatcherServletConfig
-devsmilespring.config.autoconfig.TomcatWebServerConfig
-devsmilespring.config.autoconfig.JettyWebServerConfig
-devsmilespring.config.autoconfig.PropertyPlaceholderConfig
-devsmilespring.config.autoconfig.PropertyPostProcessorConfig
-devsmilespring.config.autoconfig.DataSourceConfig
